@@ -1,0 +1,9 @@
+name: 02 - Eventos
+on: push
+
+jobs:
+  ShowTrigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Escribir la ejecución
+        run: echo "Ha ejecutado correctamente"
